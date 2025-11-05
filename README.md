@@ -1,16 +1,24 @@
 # Perseverance Makurira
 
-👋 Hi, I’m **Perseverance Makurira** — a Digital Marketing Strategist, AI Enthusiast, and Creator with an insatiable curiosity for how technology, business, and creativity collide.
+![Banner Placeholder](https://via.placeholder.com/1000x250.png?text=Perseverance+Makurira+Digital+Hub)
+
+Hi, I’m **Perseverance Makurira** — a Digital Marketing Strategist, AI Enthusiast, and Creator with an insatiable curiosity for how technology, business, and creativity collide.
 
 This repository hosts my **personal website and digital hub**, built with **Jekyll** and powered by **GitHub Pages**. It connects all my creative work, writing, and digital projects — from marketing insights to AI-driven storytelling.
 
 ---
 
-## What You’ll Find Here
+## Tech Stack & Status
+![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-222?logo=github&logoColor=white)
+![Jekyll](https://img.shields.io/badge/Built%20With-Jekyll-red?logo=jekyll)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+---
+
+## 📚 What You’ll Find Here
 - **📝 Blog Feed:** Live updates from my main WordPress blog, [The Diary of a Hustler Hub](https://thediaryofahustlerhub.wordpress.com) — covering entrepreneurship, side hustles, and digital business strategies.  
 - **💡 Future Projects:** Experiments at the intersection of AI, marketing, and personal productivity.  
-- **🎧 Podcast:** [Talking to Tomorrow](#) — conversations with AI about innovation, Africa’s future, and ethical technology.  
-- **💼 Professional Links:** My online presence, brand work, and eBooks.
+- **💼 Professional Links:** My online presence, brand work, and eBooks.  
 
 ---
 
@@ -19,9 +27,7 @@ This repository hosts my **personal website and digital hub**, built with **Jeky
 |-----------|------|-------------|
 | 📰 Main Blog | [The Diary of a Hustler Hub](https://thediaryofahustlerhub.wordpress.com) | Global ideas on hustling, marketing, and tech. |
 | 💼 LinkedIn | [Connect Here](https://linkedin.com/in/perseverance) | Professional updates and thought leadership. |
-| 💰 Money Blog | [Money With Perseverance](https://moneywithperseverance.blogspot.com) | Personal finance insights and financial independence content. |
-| 🎧 Podcast | [Talking to Tomorrow](#) | Exploring AI, the future, and Africa’s digital rise. |
-| 🌍 Facebook | [Rise Africa Stories](#) | A movement celebrating African innovation. |
+| 🧠 Personal Blog | [When My Body Betrayed Me](https://perseverancem.blogspot.com) | Personal reflections and resilience. |
 
 ---
 
@@ -37,9 +43,9 @@ This site is:
 ## ⚡ Connect with Me
 If you’re passionate about digital transformation, marketing innovation, or AI’s role in shaping the future — let’s connect:
 
-- 🌐 Website: [https://perseverancemakurira.github.io](https://perseverancemakurira.github.io)
-- 💼 LinkedIn: [linkedin.com/in/perseverance](https://linkedin.com/in/perseverance)
-- 📝 Blog: [thediaryofahustlerhub.wordpress.com](https://thediaryofahustlerhub.wordpress.com)
+- 🌐 Website: [https://perseverancemakurira.github.io](https://perseverancemakurira.github.io)  
+- 💼 LinkedIn: [linkedin.com/in/perseverance](https://linkedin.com/in/perseverance)  
+- 📝 Blog: [thediaryofahustlerhub.wordpress.com](https://thediaryofahustlerhub.wordpress.com)  
 - 📧 Email: perseverancem@gmail.com  
 
 ---
