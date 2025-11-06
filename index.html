@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Perseverance Makurira — Digital Marketing Strategist, Content Creator, and Tech Enthusiast exploring AI, business, and marketing." />
+  <meta name="description" content="Digital Marketing Strategist | AI Explorer | Entrepreneurial Educator" />
   <title>Perseverance Makurira | Digital Marketing Strategist</title>
   <style>
     body {
@@ -14,7 +14,7 @@
       color: #222;
     }
 
-    h2, h3 {
+    h1, h2, h3 {
       color: #111;
     }
 
@@ -27,17 +27,31 @@
       text-decoration: underline;
     }
 
+    section {
+      margin-top: 4em;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.6em 1.2em;
+      background: #222;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background: #007acc;
+    }
+
     blockquote {
       font-style: italic;
       margin: 1.5em 0;
       padding-left: 1em;
       border-left: 3px solid #007acc;
       color: #555;
-    }
-
-    /* Blog Feed Styling */
-    #latest-posts {
-      margin-top: 3em;
     }
 
     .rss-grid {
@@ -87,7 +101,6 @@
       color: #888;
     }
 
-    /* Newsletter Styling */
     #newsletter {
       margin-top: 3em;
       padding: 2em;
@@ -102,13 +115,27 @@
       width: 100%;
       height: 600px;
     }
+
+    footer {
+      margin-top: 4em;
+      text-align: center;
+      font-size: 0.9em;
+      color: #555;
+    }
   </style>
 </head>
 <body>
 
-  <!--  About Section -->
-  <section id="about" style="margin-top: 2em;">
-    <h2> About Me</h2>
+  <!-- 🌟 Hero Section -->
+  <section id="hero">
+    <h1>Perseverance Makurira</h1>
+    <p>Digital Marketing Strategist | AI Explorer | Entrepreneurial Educator</p>
+    <a href="#newsletter" class="cta-button">📩 Join My Newsletter</a>
+  </section>
+
+  <!-- 👤 About Section -->
+  <section id="about">
+    <h2>About Me</h2>
     <p>
       I’m <strong>Perseverance Makurira</strong> — a <em>Digital Marketing Strategist</em>, 
       <em>Content Creator</em>, and <em>Tech Enthusiast</em> passionate about the intersection of 
@@ -125,42 +152,17 @@
 
     <h3>🌍 Explore My Work</h3>
     <ul>
-      <li>
-        <a href="https://thediaryofahustlerhub.wordpress.com" target="_blank" rel="noopener">
-          📝 The Diary of a Hustler Hub
-        </a> — business, creativity, and side hustles
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/perseverance" target="_blank" rel="noopener">
-          💼 LinkedIn
-        </a> — connect professionally
-      </li>
-      <li>
-        <a href="https://perseverancem.blogspot.com" target="_blank" rel="noopener">
-          🧠 When My Body Betrayed Me
-        </a> — personal reflections and resilience
-      </li>
+      <li><a href="/projects/diary-of-a-hustler/">📝 The Diary of a Hustler Hub</a></li>
+      <li><a href="/projects/when-my-body-betrayed-me/">🧠 When My Body Betrayed Me</a></li>
+      <li><a href="/projects/rss-blog/">📚 AI & Marketing Blog</a></li>
     </ul>
 
     <blockquote>
       “I don’t just adapt to the future — I start conversations with it.”
     </blockquote>
-
-    <!-- ✨ Call-to-Action Block -->
-    <div style="margin-top: 2em; padding: 1em; border: 2px solid #222; border-radius: 8px; background: #f9f9f9;">
-      <h3> Let’s Build Together</h3>
-      <p>
-        I share <strong>actionable strategies</strong> on digital marketing, AI, and entrepreneurship. 
-        Subscribe to my newsletter and join a community of creators and founders building the future.
-      </p>
-      <a href="#newsletter" 
-        style="display: inline-block; margin-top: 0.5em; padding: 0.6em 1.2em; background: #222; color: #fff; text-decoration: none; border-radius: 4px;">
-        📩 Subscribe Now
-      </a>
-    </div>
   </section>
 
-  <!-- 📰 Latest Blog Posts Section -->
+  <!-- 📰 Latest Blog Posts -->
   <section id="latest-posts">
     <h2>📰 Latest Blog Posts</h2>
     <div id="rss-feed" class="rss-grid">
@@ -168,21 +170,18 @@
     </div>
   </section>
 
-  <!-- 📩 Newsletter Signup Section -->
+  <!-- 📩 Newsletter Signup -->
   <section id="newsletter">
     <h2>📩 Join My Newsletter</h2>
     <p>Get the latest insights on <strong>AI, marketing, and entrepreneurship</strong> delivered straight to your inbox.</p>
-
-    <!-- Google Form Embed -->
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUIoi9EEHiF6ddk27Y_xLEwfIIwEPr_y5-4ipk5AvLjpMJnw/viewform?embedded=true"
-            frameborder="0" marginheight="0" marginwidth="0">
-      Loading…
-    </iframe>
+            frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </section>
 
+  <!-- 🧠 RSS Feed Script -->
   <script>
     async function loadRSS() {
-      const rssUrl = "https://thediaryofahustlerhub.wordpress.com/feed/"; // replace with your feed
+      const rssUrl = "https://thediaryofahustlerhub.wordpress.com/feed/";
       try {
         const response = await fetch(
           "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(rssUrl)
@@ -208,6 +207,13 @@
     }
     loadRSS();
   </script>
+
+  <!-- 🔻 Footer -->
+  <footer>
+    <p>© 2025 Perseverance Makurira. All rights reserved.</p>
+    <p><a href="https://www.linkedin.com/in/perseverance" target="_blank">LinkedIn</a> | 
+       <a href="mailto:perseverancem@gmail.com">Email Me</a></p>
+  </footer>
 
 </body>
 </html>
