@@ -137,7 +137,7 @@
 
   <!-- 🔝 Header & Navigation -->
   <header>
-    <h1>🚀 Perseverance Makurira</h1>
+    <h1> Perseverance Makurira</h1>
     <p>AUTHORITY. INNOVATION. MONETIZATION. WORLDWIDE</p>
     <nav>
       <a href="#about">About</a>
@@ -154,11 +154,11 @@
     <h2>About Me</h2>
     <p>
       I’m <strong>Perseverance Makurira</strong> — a <em>Digital Marketing Strategist</em>, 
-      <em>Content Creator</em>, and <em>Tech Enthusiast</em>. Founder of <strong>The Diary of a Hustler Hub</strong> and <strong>The Authority Engine</strong>, I help creators and entrepreneurs scale with automation, branding, and monetization strategies.
+      <em>Content Creator</em>, and <em>Tech Enthusiast</em>. Founder of both <strong>The Diary of a Hustler Hub</strong> and <strong>The Authority Engine</strong>, I help creators and entrepreneurs scale with automation, branding, and monetization strategies.
     </p>
     <p>
       👉 <strong><a href="https://thediaryofahustlerhub.wordpress.com" target="_blank">The Diary of a Hustler Hub</a></strong> — focused on business, creativity, and side hustles. <br />
-      👉 <strong><a href="https://theauthorityengine.wordpress.com" target="_blank">The Authority Engine</a></strong> — an AI-powered marketing hub for automation, global strategy, and monetization.
+      👉 <strong><a href="https://theauthorityengine.wordpress.com" target="_blank">The Authority Engine</a></strong> — an AI-powered marketing hub that hosts my <em>AI & Marketing Blog</em>, sharing insights on automation, global strategy, and monetization.
     </p>
   </section>
 
@@ -173,8 +173,8 @@
     </div>
 
     <div class="card">
-      <h3>📚 AI & Marketing Blog</h3>
-      <p>Insights on automation, global strategy, and ethical monetization.</p>
+      <h3>📚 AI & Marketing Blog (The Authority Engine)</h3>
+      <p>Hosted on <strong>The Authority Engine</strong>, this blog shares insights on automation, global strategy, and ethical monetization.</p>
       <a href="https://theauthorityengine.wordpress.com" class="cta-button" target="_blank">Read Blog</a>
     </div>
 
@@ -230,4 +230,9 @@
             <div class="rss-card">
               <h3><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h3>
               <p>${item.description.substring(0, 150)}...</p>
-            </
+            </div>
+          `;
+        });
+        document.getElementById("rss-feed").innerHTML = html;
+      } catch (error) {
+        document.getElementById("rss-feed").
