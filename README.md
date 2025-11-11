@@ -1,6 +1,6 @@
 # Perseverance Makurira
 
-![Banner Placeholder](https://via.placeholder.com/1000x250.png?text=Perseverance+Makurira+Digital+Hub)
+![The Authority Engine Banner](https://theauthorityengine.wordpress.com/wp-content/uploads/2025/11/blue-corporate-linkedin-article-cover-image-2-2.png)
 
 Hi, I’m **Perseverance Makurira** — a Digital Marketing Strategist, AI Enthusiast, and Creator with an insatiable curiosity for how technology, business, and creativity collide.
 
